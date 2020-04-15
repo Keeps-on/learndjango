@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',  # 注册DRF框架应用
+    'unit'
 ]
 
 MIDDLEWARE = [
