@@ -16,7 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from rest_framework.routers import DefaultRouter
+# 基本演示
 from unit import views
+# 自定义Ser
+from unit_serializers import views
+
+
 
 
 urlpatterns = [

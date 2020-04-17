@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',  # 注册DRF框架应用
-    'unit'
+    'unit',
+    'unit_serializers',
 ]
 
 MIDDLEWARE = [
